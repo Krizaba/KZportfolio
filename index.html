@@ -4,11 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles-main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <title>Kristine Zabarovska Portfolio</title>
 </head>
 <body>
     <section class="header">
+        <nav>
+            <a href="index.html"><img src="https://i.ibb.co/ZxH5w9L/krizaba-white.png" alt="krizaba logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html" style="color:rgb(107, 221, 255)">HOME</a>
+                    </li>
+                    <li>
+                        <a href="works.html">WORKS</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="mov-text">
+            <marquee class="marq" behavior="alternate
+            " direction="left" scrollamount="4">
+                <h3>Hello, I am Kristīne,</h3>
+            </marquee>
+            <marquee class="marq" behavior="alternate
+            " direction="right" scrollamount="4">
+                <h3 style="color:rgb(107, 221, 255)">HTML email developer</h3>
+            </marquee>
+        </div>
+
+        <!-- <div class="main-title">
+            <h1>Hello, I am Kristine,
+                <br> HTML email <span style="color:#500707bb">developer</span>
+                <br> & content editor
+            </h1>
+        </div> -->
+        <br>
+        <br>
         
+        <div class=" text-box ">
+            <h1>Everything is possible...</h1>
+            <p>“It is never too late to follow your dreams, and there is no time like the present to start.”</p>
+
+            <a href="https://resume.io/r/eYph6o8s9 " class="hero-btn ">See the resume</a><br><br><br>
+            <div class="happy ">
+                <h4>Being happy never goes out of style!</h4>
+            </div>
+
+        </div>
     </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
 </body>
 </html>
