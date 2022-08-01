@@ -4,7 +4,8 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-.header{
+.header,
+.header_works {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.465)) , url(https://i.ibb.co/S7jG5tp/portfolio-background-no-spots.png); 
@@ -44,8 +45,6 @@ nav img {
 
 ul li a:hover {
     color: rgb(255, 255, 255);
-    /* background: #7c7c7c57;
-    padding:3px; */
     transition: 0.5s;
     border-radius: 6px;
 }
@@ -63,7 +62,7 @@ nav .fa {
     }
     .nav-links {
         position: fixed;
-        background: #090d1b;
+        background: hsla(60, 5%, 12%, 0.968);
         height: 100vh;
         width: 200px;
         top: 0;
@@ -125,5 +124,49 @@ nav .fa {
     color: #ffffff;
     font-weight: bold;
     transition: 1s;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.emails {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.emails h1 {
+    color: rgb(192, 192, 192);
+    font-weight: 600;
+}
+
+.emails-col {
+    flex-basis: 24%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.emails-col img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.emails-col:hover {
+    border: 1px solid rgb(107, 221, 255);
+    transition: 0.2s;
+    cursor: pointer;
 }
 

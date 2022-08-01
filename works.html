@@ -10,51 +10,51 @@
     <title>Kristine Zabarovska Portfolio</title>
 </head>
 <body>
-    <section class="header">
+    <section class="header_works">
         <nav>
             <a href="index.html"><img src="https://i.ibb.co/ZxH5w9L/krizaba-white.png" alt="krizaba logo"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li>
-                        <a style="font-size:20px; color:white" href="index.html">HOME</a>
+                        <a href="index.html">HOME</a>
                     </li>
                     <li>
-                        <a href="works.html">WORKS</a>
+                        <a style="font-size:20px; color:white" href="pages/works.html">WORKS</a>
                     </li>
                     <li>
                         <a href="about.html">ABOUT</a>
                     </li>
                     <li>
-                        <a href="contact.html">CONTACT</a>
+                        <a href="pages/contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
+        <section class="emails">
+            <h1>HTML email examples</h1>
 
-        <div class="mov-text">
-            <marquee class="marq" behavior="alternate
-            " direction="left" scrollamount="4">
-                <h3><span style="color:dimgrey; font-size:smaller;">Hello, I am Kristīne,</span></h3>
-            </marquee>
-            <marquee class="marq" behavior="alternate
-            " direction="right" scrollamount="4">
-                <h3>HTML  developer
-                <br><span style="color:dimgrey; font-size:smaller; ">& content editor</span></h3>
-            </marquee>
-        </div>
+            <div class="row">
+                <div class="emails-col">
+                    <a href="promemail.html"><img src="https://i.ibb.co/zJgQkcT/Promotional.png" alt="promotional email"></a>
+                </div>
+                <div class="emails-col">
+                    <a href="transemail.html"><img src="https://i.ibb.co/3TTDM8Y/Transactional.png" alt="transactional email"></a>
+                </div>
+                <div class="emails-col">
+                    <a href="newsemail.html"><img src="https://i.ibb.co/Lt2XTKR/Newsletter.png" alt="newsletter email"></a>
+                </div>
+                <div class="emails-col">
+                    <a href="landing.html"><img src="https://i.ibb.co/xqSDSJr/Landing-page.png" alt="landing page"></a>
+                </div>
 
-        <br>
-        <br>
+            </div>
+        </section>
+    </section>
+
+
         
-        <div class=" text-box ">
-            <h1>Everything is possible...</h1>
-            <p>“It is never too late to follow your dreams, and there is no time like the present to start.”</p>
-            <br>
-            <a href="https://resume.io/r/eYph6o8s9 " class="hero-btn ">See the resume</a><br><br>
-        </div>
-   
     </section>
     <script>
         var navLinks = document.getElementById("navLinks");
