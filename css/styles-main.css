@@ -6,7 +6,8 @@
 }
 .header,
 .header_works,
-.header_about {
+.header_about,
+.header_contact {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.465)) , url(https://i.ibb.co/S7jG5tp/portfolio-background-no-spots.png); 
@@ -268,5 +269,62 @@ nav .fa {
     padding: 8px;
     box-sizing: border-box;
 }
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+    font-size: 28px;
+    color: rgb(107, 221, 255);
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+    color: rgb(107, 221, 255);
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.contact-col div h5 a {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+@media(max-width:700px) {
+    .contact-col div h5 {
+        font-size: 13px;
+    }
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
 
 
