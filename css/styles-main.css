@@ -134,7 +134,8 @@ nav .fa {
     transition: 1s;
 }
 
-.row {
+.row, 
+.row2 {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -142,6 +143,11 @@ nav .fa {
 
 @media(max-width:700px) {
     .row {
+        flex-direction: column;
+    }
+}
+@media(max-width:1100px) {
+    .row2 {
         flex-direction: column;
     }
 }
@@ -187,11 +193,48 @@ nav .fa {
     font-size:medium;
 }
 
+.code-btn {
+    width: 5em;
+    background: #fff;
+    color: rgb(109, 109, 109);
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 6px 12px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
 
+.code-btn:hover {
+    color:#fff;
+    background: rgba(208, 208, 208, 0.278);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.two-emails {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.button {
+    padding: 20px;
+}
+
+.email-col {
+    flex-basis: 48%;
+}
+
+.email-col img {
+    margin-left: 10%;
+    width: 80%;
+}
 .info {
     width: 100%;
     text-align: center;
-    /* padding: 10px 0; */
 }
 
 .info h4 {
@@ -222,13 +265,13 @@ nav .fa {
     width: 100%;
 }
 
-@media(max-width:700px) {
+ /* @media(max-width:1200px) {
     .about-col img {
         padding-top: 0px;
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
-}
+}  */
 
 .about-col h1 {
     font-size: 35px;
