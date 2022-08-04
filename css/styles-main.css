@@ -177,6 +177,17 @@ nav .fa {
     transition: 0.2s;
     cursor: pointer;
 }
+
+.header_landing h2,
+.header_newsemails h2, 
+.header_promemails h2, 
+.header_transemails h2 {
+    text-align:center;
+    color:rgb(143, 143, 143);
+    font-size:medium;
+}
+
+
 .info {
     width: 100%;
     text-align: center;
