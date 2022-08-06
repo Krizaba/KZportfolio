@@ -109,12 +109,9 @@ a {
     justify-content: center;
 }
 
-
-/* Hero section */
-
 #hero {
     background-image: url(https://i.ibb.co/2nnN9ry/background4.png);
-    background-size: cover;
+    background-size: 100%;
     background-position: top center;
     position: relative;
     z-index: 1;
@@ -206,11 +203,6 @@ a {
 }
 
 
-/* End of hero section */
-
-
-/* keyframes */
-
 @keyframes text_reveal_box {
     50% {
         width: 100%;
@@ -234,6 +226,3 @@ a {
         font-weight: 1500;
     }
 }
-
-
-/* end of keyframes */
