@@ -8,7 +8,8 @@
 .header_works,
 .header_about,
 .header_contact,
-.header_promemails {
+.header_promemails,
+.header_thankyou {
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.465)) , url(https://i.ibb.co/S7jG5tp/portfolio-background-no-spots.png); 
@@ -107,6 +108,15 @@ nav .fa {
     font-size: 16px;
     color: #fff;
     
+}
+.text-boxx {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    padding-left: 15px;
+    top: 15%;
+    bottom: 50%;
+    text-align: center;
 }
 
 .hero-btn {
